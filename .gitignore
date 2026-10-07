@@ -94,3 +94,6 @@ sw.*
 .data
 .nitro
 .cache
+
+# Vercel
+.vercel
