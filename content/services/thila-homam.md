@@ -60,7 +60,8 @@ The effect of Pithru Dosham in some cases only temporal and can be ridden off by
 </div>
 <hr>
 
-<section id="thila-homam-procedure>
+<section id="thila-homam-procedure">
+
 
 ## Thila Homam Procedure at Thirupullani: 
 |  |  |
@@ -95,7 +96,8 @@ The effect of Pithru Dosham in some cases only temporal and can be ridden off by
 </address>
 
 
-<ImageWithCaption width="320" imgsrc="/images/thirupullani-premise.webp" imgalttxt=" SambathSasthri performing thilahomam here"> </ImageWithCaption>
+::image-with-caption{width="320" imgsrc="/images/thirupullani-premise.webp" imgalttext=" SambathSasthri performing thilahomam here"}
+::
 
 <hr>
-<section>
+</section>

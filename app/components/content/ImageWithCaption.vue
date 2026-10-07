@@ -19,7 +19,7 @@
     <!-- <figcaption class="figure-caption">
       {{ imgalttext }}
     </figcaption> -->
-        <p class="leading-loose"><slot></slot></p>
+        <div class="leading-loose"><slot mdc-unwrap="p" /></div>
   </figure>
   </div>
 </template>

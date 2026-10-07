@@ -9,11 +9,9 @@ cardImageUrl: /images/tgudi-mutt.webp
 
 <section id="how-to-reach-thirupullani" class="text-lg text-justify font-normal">
 
-<ImageWithCaption width="350" height="" imgsrc="/images/temple-tower.webp" imgalttext="thirupullani-gopuram-tower">
-
+::image-with-caption{width="350" imgsrc="/images/temple-tower.webp" imgalttext="thirupullani-gopuram-tower"}
 Thiruppullani is a beautiful coastal Divya Desam that is intimately connected with the Ramayana.Thirupullani Aadhi Jagannatha Perumal temple is among the 108 divyadesams of Sri Vaishnavas. Sri Kalyana Jagannathar is the presiding diety with his consorts Kalyanavalli thayar and Padmasini thayar. Since Vibeshanan fell at Sri Rama’s feet for complete saranagathi at this place after being thrown out by brother Ravana, it is also known as “Saranagathi Kshetram”.
-
-</ImageWithCaption>
+::
 
 
 ## How to reach Thirupullani?
@@ -27,9 +25,11 @@ The Sethu seashore, where Sri RAMA camped while building the bridge across the s
 
 Some of the trains that operate between Chennai and Ramanathapuram include: MUV RMM EXP, RAMESWARAM EXP. The first train on this route is BBS RMM EXPRESS and leaves Chennai at 08:45 am, and the last train from Chennai to Ramanathapuram is RAMESWARAM EXP and leaves Chennai at 19:15 pm. The average time taken to connect these cities is **10:59** hours. There are 4 weekly trains and 2 daily trains that run from Chennai to Ramanathapuram, covering the shortest distance of about 441 km by RAMESWARAM EXP(22661).
 
-<ImageWithCaption width="100%" height="100%" imgsrc="/media/ms-rmd-train-timings.png" imgalttxt="ramnad-to-chennai"> </ImageWithCaption>
+::image-with-caption{width="100%" height="100%" imgsrc="/media/ms-rmd-train-timings.png" imgalttext="ramnad-to-chennai"}
+::
 
-<ImageWithCaption width="100%" height="100%" imgsrc="/media/rmd-ms-train-timings.png" imgalttxt="chennai-to-ramnad"> </ImageWithCaption>
+::image-with-caption{width="100%" height="100%" imgsrc="/media/rmd-ms-train-timings.png" imgalttext="chennai-to-ramnad"}
+::
 
 </section>
 
@@ -68,6 +68,6 @@ Via Road      : Rameswaram to Ramanathapuram to Madurai is a National Highway, w
 
 Via Train     : Direct Trains between Chennai and Ramnad and from Madurai
 
-<section>
+</section>
 
 <hr>

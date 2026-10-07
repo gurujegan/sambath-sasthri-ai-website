@@ -1,72 +1,49 @@
 # website-sambathsasthri
 
+Static site built with [Nuxt 4](https://nuxt.com), [Nuxt Content 3](https://content.nuxt.com) and Tailwind CSS, hosted on Firebase.
+
+Requires Node.js 22.12+ or 24.11+.
+
 ## Build Setup
 
 ```bash
 # install dependencies
-$ npm install
+npm install
 
 # serve with hot reload at localhost:3000
-$ npm run dev
+npm run dev
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+# generate the static site into .output/public
+npm run generate
 
-# generate static project
-$ npm run generate
+# preview the generated site locally
+npm run preview
 
-# firebase deploy
-$ firebase deploy
+# lint
+npm run lint
+
+# firebase deploy (serves .output/public)
+firebase deploy
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+## Project layout
 
-## Special Directories
+| Path | Purpose |
+| --- | --- |
+| `app/pages/` | Routes (file-based). `pages/exclude/` holds old drafts, blocked in robots.txt and the sitemap. |
+| `app/components/` | Auto-imported Vue components. `components/content/` is usable from Markdown. |
+| `app/layouts/default.vue` | Nav bar, page slot and footer. |
+| `app/assets/` | Files processed by the bundler (CSS, images). |
+| `content/services/` | Service articles (Markdown), defined as the `services` collection in `content.config.ts`. |
+| `public/` | Served as-is from `/` (images, icons, favicon). |
+| `nuxt.config.ts` | Head tags, modules, sitemap/robots/analytics config. |
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+### Using components in Markdown
 
-### `assets`
+Components in `app/components/content/` are used with MDC block syntax:
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+```md
+::image-with-caption{width="350" imgsrc="/images/temple-tower.webp" imgalttext="temple tower"}
+Caption / paragraph text goes here.
+::
+```

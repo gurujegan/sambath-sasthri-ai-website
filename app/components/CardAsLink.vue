@@ -18,10 +18,8 @@
         <slot> </slot>
         <!-- <h5 class="card-title text-black">Card title</h5>
     <p class="card-text text-black leading-6">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-        <a :href="articleUrl"
-        class="btn btn-primary bg-rose-900"
-          >To Know More</a
-        >
+        <!-- span, not <a>: the whole card is already a link and nested anchors break SSR hydration -->
+        <span class="btn btn-primary bg-rose-900">To Know More</span>
       </div>
     </div>
   </NuxtLink>

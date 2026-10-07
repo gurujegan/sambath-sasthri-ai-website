@@ -3,7 +3,7 @@
     <div class="item">
       <main class="w-full">
         <section class="space-y-4 divide-y">
-          <article v-for="post of posts" :key="post.slug" class="pt-4">
+          <article v-for="post of posts" :key="post.path" class="pt-4">
             <div
               class="
                 max-w-md
@@ -35,7 +35,7 @@
                         text-white
                         underline
                       "
-                      :to="`/${post.slug}/`"
+                      :to="`/${post.stem.split('/').pop()}/`"
                     >
                       {{ post.title }}
                     </NuxtLink>
@@ -51,15 +51,8 @@
   </PageContent>
 </template>
 
-<script>
-export default {
-  data () {
-    return {
-      posts: []
-    }
-  },
-  async fetch () {
-    this.posts = await this.$content('services').fetch()
-  }
-}
+<script setup>
+const { data: posts } = await useAsyncData('services', () =>
+  queryCollection('services').order('order', 'ASC').all()
+)
 </script>
