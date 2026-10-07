@@ -16,7 +16,7 @@
           <AppIcon name="phone" class="h-5 w-5" />
           Call {{ site.phone }}
         </a>
-        <NuxtLink to="/contact/" class="btn-light">Send an enquiry</NuxtLink>
+        <NuxtLink to="/contact/" class="btn-light">Contact details</NuxtLink>
       </div>
     </div>
   </section>
