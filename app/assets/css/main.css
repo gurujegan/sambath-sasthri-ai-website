@@ -1,3 +1,76 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem; /* clear the sticky header on anchor jumps */
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-sandal-50 font-sans text-[1.0625rem] leading-relaxed text-ink antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display text-kumkum-800;
+    letter-spacing: 0.01em;
+  }
+
+  /* Tamil text reads better a touch larger and in its own serif */
+  [lang='ta'] {
+    @apply font-tamil;
+  }
+
+  ::selection {
+    @apply bg-saffron-200 text-kumkum-900;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-saffron-500 ring-offset-2 ring-offset-sandal-50;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-semibold leading-none
+      transition-colors duration-200;
+  }
+
+  .btn-primary {
+    @apply btn bg-saffron-600 text-white shadow-sm hover:bg-saffron-700;
+  }
+
+  .btn-outline {
+    @apply btn border-2 border-current text-kumkum-700 hover:bg-kumkum-700 hover:text-white;
+  }
+
+  .btn-light {
+    @apply btn border-2 border-gold-300/70 text-sandal-100 hover:bg-sandal-100 hover:text-kumkum-900;
+  }
+
+  .eyebrow {
+    @apply text-sm font-semibold uppercase tracking-[0.2em] text-saffron-600;
+  }
+
+  .card {
+    @apply rounded-2xl border border-sandal-300/70 bg-white/70 shadow-[0_1px_0_rgba(160,118,23,0.15),0_12px_32px_-16px_rgba(74,22,17,0.25)];
+  }
+
+  /* Temple-arch frame for photos */
+  .arch-frame {
+    @apply relative overflow-hidden rounded-arch ring-4 ring-gold-300 ring-offset-4 ring-offset-sandal-100;
+  }
+
+  /* Faint kolam-like dot grid used on alternate sections */
+  .bg-kolam {
+    background-color: theme('colors.sandal.100');
+    background-image: radial-gradient(theme('colors.gold.300 / 45%') 1.2px, transparent 1.3px);
+    background-size: 22px 22px;
+  }
+}

@@ -1,57 +1,54 @@
 <template>
-  <PageContent class="services" id="services">
-    <div class="item">
-      <main class="w-full">
-        <section class="space-y-4 divide-y">
-          <article v-for="post of posts" :key="post.path" class="pt-4">
-            <div
-              class="
-                max-w-md
-                mx-auto
-                bg-yellow-500
-                rounded-xl
-                shadow-md
-                overflow-hidden
-                md:max-w-4xl
-              "
+  <div>
+    <PageHero
+      eyebrow="Services"
+      title="Our Services"
+      title-ta="எங்கள் சேவைகள்"
+      lead="Thila Homam for Pitru Dosha nivarthi at Thirupullani and Sethukarai, with travel and stay taken care of for your family."
+    />
+
+    <PageContent>
+      <div class="space-y-8">
+        <NuxtLink
+          v-for="post in posts"
+          :key="post.path"
+          :to="`/${post.stem.split('/').pop()}/`"
+          class="card group grid overflow-hidden transition hover:-translate-y-0.5 hover:shadow-xl md:grid-cols-[18rem_1fr]"
+        >
+          <div class="aspect-[4/3] overflow-hidden bg-sandal-200 md:aspect-auto">
+            <img
+              :src="post.cardImageUrl"
+              :alt="post.title"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105"
             >
-              <div class="md:flex">
-                <div class="md:shrink-0">
-                  <img
-                    class="h-48 w-full object-cover md:w-48"
-                    :src="post.cardImageUrl"
-                  />
-                </div>
-                <div class="p-8">
-                  <div class="uppercase tracking-wide text-sm font-semibold">
-                    <NuxtLink
-                      class="
-                        block
-                        mt-1
-                        text-lg
-                        leading-tight
-                        font-medium
-                        hover:underline
-                        text-white
-                        underline
-                      "
-                      :to="`/${post.stem.split('/').pop()}/`"
-                    >
-                      {{ post.title }}
-                    </NuxtLink>
-                  </div>
-                  <p class="mt-2">{{ post.description }}</p>
-                </div>
-              </div>
-            </div>
-          </article>
-        </section>
-      </main>
-    </div>
-  </PageContent>
+          </div>
+          <div class="flex flex-col justify-center p-6 sm:p-8">
+            <h2 class="text-2xl sm:text-3xl">{{ post.title }}</h2>
+            <p class="mt-3 text-lg leading-8 text-ink-muted">{{ post.description }}</p>
+            <span class="mt-5 inline-flex items-center gap-2 font-semibold text-kumkum-700">
+              Read more
+              <AppIcon name="arrow" class="h-5 w-5 transition group-hover:translate-x-1" />
+            </span>
+          </div>
+        </NuxtLink>
+      </div>
+
+      <div class="mt-16 rounded-2xl border border-gold-300/70 bg-sandal-100 p-8 text-center">
+        <h2 class="text-2xl">Other auspicious functions</h2>
+        <p class="mx-auto mt-3 max-w-2xl text-lg text-ink-muted">
+          Ganapathi Homam, Thirumana Vaibhavam (Wedding), Punyahavachanam, Gruhapravesam, Kumbabhishekam and
+          shanthi pariharam for sakala dosha nivarthi at Adhi Sethu.
+        </p>
+      </div>
+    </PageContent>
+
+    <CallCta />
+  </div>
 </template>
 
 <script setup>
+useSeoMeta({ title: 'Services | Thila Homam, Travel & Accommodation – Sambath Shastri' })
+
 const { data: posts } = await useAsyncData('services', () =>
   queryCollection('services').order('order', 'ASC').all()
 )

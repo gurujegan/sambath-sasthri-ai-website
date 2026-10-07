@@ -5,9 +5,7 @@ order: B
 cardImageUrl: /images/tgudi-mutt.webp
 ---
 
-<hr>
-
-<section id="how-to-reach-thirupullani" class="text-lg text-justify font-normal">
+<section id="how-to-reach-thirupullani">
 
 ::image-with-caption{width="350" imgsrc="/images/temple-tower.webp" imgalttext="thirupullani-gopuram-tower"}
 Thiruppullani is a beautiful coastal Divya Desam that is intimately connected with the Ramayana.Thirupullani Aadhi Jagannatha Perumal temple is among the 108 divyadesams of Sri Vaishnavas. Sri Kalyana Jagannathar is the presiding diety with his consorts Kalyanavalli thayar and Padmasini thayar. Since Vibeshanan fell at Sri Rama’s feet for complete saranagathi at this place after being thrown out by brother Ravana, it is also known as “Saranagathi Kshetram”.
@@ -21,7 +19,7 @@ Ramanathapuram is about 4 hours from Tiruchirapalli either by bus or train and a
 
 The Sethu seashore, where Sri RAMA camped while building the bridge across the sea is about 5 km from the Thirupullani temple.
 
-##### **Train Details:**
+### Train Details
 
 Some of the trains that operate between Chennai and Ramanathapuram include: MUV RMM EXP, RAMESWARAM EXP. The first train on this route is BBS RMM EXPRESS and leaves Chennai at 08:45 am, and the last train from Chennai to Ramanathapuram is RAMESWARAM EXP and leaves Chennai at 19:15 pm. The average time taken to connect these cities is **10:59** hours. There are 4 weekly trains and 2 daily trains that run from Chennai to Ramanathapuram, covering the shortest distance of about 441 km by RAMESWARAM EXP(22661).
 
@@ -33,41 +31,32 @@ Some of the trains that operate between Chennai and Ramanathapuram include: MUV 
 
 </section>
 
-<hr>
 
-<section id="accommodation" class="text-lg text-justify font-normal">
+<section id="accommodation">
 
-## Food & Accommodation:
+## Food & Accommodation
 
 We will take care of all your food & accommodation. Devotees will be accommodated at **Thirukkurungudi Jeeyar Mutt** which is very right next to the main gopuram of the temple. It is well mainitained & has both AC & NON-AC rooms. Also it is nearby to our premise where ThilaHomam will be performed.
 
-For any quries regarding accomodation, feel free to contact us  <a href="/about/" class="hover:underline">Contact Us</a>
-we are here to help at any time 24*7
+For any queries regarding accommodation, feel free to [contact us](/contact/). We are here to help at any time, 24×7.
 
 </section>
 
-<hr>
 
-<section id="thirupullani-quick-facts" class="text-lg tracking-wide italic ">
+<section id="thirupullani-quick-facts">
 
-##### **Quick Facts:**
+## Quick Facts
 
-Deity         : Adhi Jagannatha Perumal
-
-Goddess       : Kalyanavalli, Padmasini Thayar
-
-Temple timing : 6:30AM - 12PM & 3:30PM - 8PM
-
-Distance from   : Ramanathapuram to Thirupullani - 10 Kms, Rameswaram to Thirupullani - 60 Kms and Madurai Mattuthavani BUSTAND to Thirupullani - 125 Kms
-
-Sethu SeaShore(Thirpullani to Sethukarai) : About 4 kms from Thirupullani Temple
-
-Bus           : Bus Numbers 1A,1B, 5,5A,5B, 10 and 17 from Ramnad
-
-Via Road      : Rameswaram to Ramanathapuram to Madurai is a National Highway, wide roads all the way through ( Paramakudi-Manamadurai route) that allows consistent travel at 80kms per hour
-
-Via Train     : Direct Trains between Chennai and Ramnad and from Madurai
+| Thirupullani | Details |
+| --- | --- |
+| Deity | Adhi Jagannatha Perumal |
+| Goddess | Kalyanavalli, Padmasini Thayar |
+| Temple timing | 6:30AM - 12PM & 3:30PM - 8PM |
+| Distance from | Ramanathapuram to Thirupullani - 10 Kms, Rameswaram to Thirupullani - 60 Kms and Madurai Mattuthavani BUSTAND to Thirupullani - 125 Kms |
+| Sethu SeaShore(Thirpullani to Sethukarai) | About 4 kms from Thirupullani Temple |
+| Bus | Bus Numbers 1A,1B, 5,5A,5B, 10 and 17 from Ramnad |
+| Via Road | Rameswaram to Ramanathapuram to Madurai is a National Highway, wide roads all the way through ( Paramakudi-Manamadurai route) that allows consistent travel at 80kms per hour |
+| Via Train | Direct Trains between Chennai and Ramnad and from Madurai |
 
 </section>
 
-<hr>

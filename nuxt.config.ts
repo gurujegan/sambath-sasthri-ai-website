@@ -22,16 +22,14 @@ export default defineNuxtConfig({
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'description', content: 'Get your Thila Homam done at Thirupullani with best accomodation & food service. Two decades of dedicated services to devotees & fulfilling their needs with right rituals. Well experienced pundits and high quality service.' },
-        { name: 'format-detection', content: 'telephone=yes' }
+        { name: 'format-detection', content: 'telephone=yes' },
+        { name: 'theme-color', content: '#4A1611' }
       ],
       link: [
         { rel: 'icon', type: 'image/png', href: '/icons8-om-96.png' },
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Oxygen&display=swap' },
-        { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css' },
-        { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.css' }
-      ],
-      script: [
-        { src: 'https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.js', defer: true }
+        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+        { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;500;600&family=Marcellus&family=Noto+Serif+Tamil:wght@500;600&display=swap' }
       ]
     }
   },

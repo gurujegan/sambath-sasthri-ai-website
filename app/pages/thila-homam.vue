@@ -1,15 +1,3 @@
 <template>
-  <PageContent>
-    <BlogArticle :articleName="title"></BlogArticle>
-  </PageContent>
+  <BlogArticle article-name="thila-homam" />
 </template>
-
-<script>
-export default {
-  data () {
-    return {
-      title: 'thila-homam'
-    }
-  }
-}
-</script>

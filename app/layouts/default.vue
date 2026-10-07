@@ -1,26 +1,9 @@
 <template>
-<div>
-  <NavBar />
-  <slot />
-  <Footer />
+  <div class="flex min-h-screen flex-col">
+    <SiteHeader />
+    <main class="flex-1">
+      <slot />
+    </main>
+    <SiteFooter />
   </div>
 </template>
-
-<style>
-html,body {
-  background: #fde68a;
-  height: 100%;
-  font-family: adobe-garamond-pro, serif;
-}
-
-/* Smooth scroll effect */
-html {
-  scroll-behavior: smooth;
-}
-
-body > footer {
-  position: sticky;
-  top: 100vh;
-}
-
-</style>
