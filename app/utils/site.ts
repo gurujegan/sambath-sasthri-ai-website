@@ -1,6 +1,8 @@
 // Contact details shown across the site (header, footer, about, contact, article CTAs)
 export const site = {
   name: 'Sambath Shastri',
+  url: 'https://www.sambathshastri.in',
+  defaultImage: '/images/thila-homam.webp',
   nameTa: 'ஸ்ரீ சம்பத் சாஸ்திரி',
   phone: '+91 94435 03868',
   phoneHref: 'tel:+919443503868',

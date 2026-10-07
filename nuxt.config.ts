@@ -14,14 +14,13 @@ export default defineNuxtConfig({
   // Global page headers
   app: {
     head: {
-      title: 'Thila Homam & Pitru Dosha puja services in Thirupullani, Sethukarai & Rameshwaram',
+      title: 'Thila Homam & Pitru Dosha Puja in Thirupullani, Sethukarai & Rameswaram',
       htmlAttrs: {
         lang: 'en'
       },
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', content: 'Get your Thila Homam done at Thirupullani with best accomodation & food service. Two decades of dedicated services to devotees & fulfilling their needs with right rituals. Well experienced pundits and high quality service.' },
         { name: 'format-detection', content: 'telephone=yes' },
         { name: 'theme-color', content: '#4A1611' }
       ],
@@ -55,7 +54,13 @@ export default defineNuxtConfig({
   },
 
   robots: {
-    disallow: ['/admin', '/exclude']
+    disallow: ['/admin']
+  },
+
+  // Old/test pages under /exclude are still generated; keep them out of search results.
+  // (noindex rather than a robots.txt Disallow, so crawlers can actually see the noindex.)
+  routeRules: {
+    '/exclude/**': { robots: false }
   },
 
   // NOTE: Universal Analytics (UA-*) stopped collecting data in 2023.

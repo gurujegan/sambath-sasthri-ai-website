@@ -60,7 +60,28 @@
 </template>
 
 <script setup>
-useSeoMeta({ title: 'About H. Sambath Shastri | Thila Homam at Thirupullani' })
+usePageSeo({
+  title: 'About H. Sambath Shastri | Thila Homam at Thirupullani',
+  description: 'H. Sambath Shastri, Adhyayana Pattar at Vazhividu Murugan Temple, has performed Thila Homam and Pitru Dosha pariharam at Thirupullani & Sethukarai for over 20 years.',
+  image: '/images/sambath-shastri1.webp'
+})
+
+useHead({
+  script: [{
+    type: 'application/ld+json',
+    innerHTML: JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'Person',
+      name: 'H. Sambath Shastri',
+      jobTitle: 'Adhyana Pattar',
+      worksFor: { '@type': 'HinduTemple', name: 'Arulmigu Sri Vazhividu Murugan Temple', address: 'No. 46, South Car Street, Ramanathapuram 623501' },
+      telephone: site.phoneHref.replace('tel:', ''),
+      image: absoluteUrl('/images/sambath-shastri1.webp'),
+      url: `${site.url}/about/`,
+      knowsLanguage: ['ta', 'en', 'te']
+    })
+  }]
+})
 
 const points = [
   { text: 'Adhyana Battar at Vazhividu Murugan Temple.' },

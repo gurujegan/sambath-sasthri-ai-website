@@ -55,7 +55,10 @@
 </template>
 
 <script setup>
-useSeoMeta({ title: 'Contact Sambath Shastri | Book Thila Homam at Thirupullani' })
+usePageSeo({
+  title: 'Contact Sambath Shastri | Book Thila Homam at Thirupullani',
+  description: `Call ${site.phone} to book Thila Homam at Thirupullani or Sethukarai. Addresses in Thirupullani and Ramanathapuram, with guidance in ${site.languages}.`
+})
 
 useHead({
   script: [{ src: 'https://static.airtable.com/js/embed/embed_snippet_v1.js' }]

@@ -2,6 +2,9 @@
 title: Thila Homam
 description: 'Vedic ritual performed to alleviate the adverse effects of Pitru dosha or the curse of our dead ancestors who have not been appeased (குறிப்பாக பித்ரு தோஷ நிவர்த்திக்காக செய்யப்படுவது)'
 order: A
+seo:
+  title: 'Thila Homam for Pitru Dosha at Thirupullani & Sethukarai | Sambath Shastri'
+  description: 'What Thila Homam is, why it is done for Pitru Dosha nivarthi, and how it is performed at Thirupullani and Sethukarai by H. Sambath Shastri.'
 cardImageUrl: /images/thila-homam.webp
 ---
 

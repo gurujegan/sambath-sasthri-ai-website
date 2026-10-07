@@ -47,7 +47,10 @@
 </template>
 
 <script setup>
-useSeoMeta({ title: 'Services | Thila Homam, Travel & Accommodation – Sambath Shastri' })
+usePageSeo({
+  title: 'Services | Thila Homam, Travel & Accommodation – Sambath Shastri',
+  description: 'Thila Homam for Pitru Dosha nivarthi at Thirupullani and Sethukarai, travel and stay for your family, and Vedic rituals like Ganapathi Homam and Gruhapravesam.'
+})
 
 const { data: posts } = await useAsyncData('services', () =>
   queryCollection('services').order('order', 'ASC').all()

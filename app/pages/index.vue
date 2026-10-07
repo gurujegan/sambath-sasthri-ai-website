@@ -103,6 +103,39 @@
 </template>
 
 <script setup>
+usePageSeo({
+  title: 'Thila Homam & Pitru Dosha Puja in Thirupullani, Sethukarai & Rameswaram',
+  description: 'Thila Homam and Pitru Dosha nivarthi at Thirupullani, Sethukarai & Rameswaram by H. Sambath Shastri. Over 20 years of service, with food and accommodation arranged.'
+})
+
+useHead({
+  script: [{
+    type: 'application/ld+json',
+    innerHTML: JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'LocalBusiness',
+      '@id': `${site.url}/#business`,
+      name: 'Sambath Shastri – Thila Homam, Thirupullani',
+      description: 'Thila Homam and Pitru Dosha nivarthi rituals at Thirupullani, Sethukarai and Rameswaram, with food and accommodation for devotees.',
+      url: `${site.url}/`,
+      image: absoluteUrl(site.defaultImage),
+      logo: absoluteUrl('/icons8-om-96.png'),
+      telephone: site.phoneHref.replace('tel:', ''),
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: 'South Car Street, next to Ahobila Mutt',
+        addressLocality: 'Thirupullani',
+        addressRegion: 'Tamil Nadu',
+        postalCode: '623532',
+        addressCountry: 'IN'
+      },
+      areaServed: ['Thirupullani', 'Sethukarai', 'Rameswaram', 'Ramanathapuram'],
+      openingHours: 'Mo-Su 00:00-23:59',
+      founder: { '@type': 'Person', name: 'H. Sambath Shastri', url: `${site.url}/about/` }
+    })
+  }]
+})
+
 const highlights = [
   { icon: 'years', title: '20+ years', text: 'Performing Thila Homam for Pitru Dosha nivarthi for over two decades.' },
   { icon: 'flame', title: 'At Adhi Sethu', text: 'Shanthi pariharam at Sethukarai, where Lord Rama began the bridge to Lanka.' },

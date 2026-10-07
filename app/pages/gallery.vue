@@ -23,7 +23,10 @@
 </template>
 
 <script setup>
-useSeoMeta({ title: 'Gallery | Thila Homam at Thirupullani & Sethukarai – Sambath Shastri' })
+usePageSeo({
+  title: 'Gallery | Thila Homam at Thirupullani & Sethukarai – Sambath Shastri',
+  description: 'Photos of Thila Homam, Shanthi Pariharam and Sarpa Shanthi rituals at Thirupullani and Sethukarai, and the temple town where devotees stay.'
+})
 
 const photos = [
   { src: '/images/thila-homam.webp', caption: 'Thila Homam at Ghosala, Thirupullani' },

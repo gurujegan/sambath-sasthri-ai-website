@@ -38,9 +38,14 @@ const { data: post } = await useAsyncData(`services-${props.articleName}`, () =>
   queryCollection('services').path(`/services/${props.articleName}`).first()
 )
 
-useSeoMeta({
-  title: () => post.value ? `${post.value.title} | Sambath Shastri` : undefined,
-  description: () => post.value?.description
+if (!post.value) {
+  throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
+}
+
+usePageSeo({
+  title: () => post.value?.seo?.title || `${post.value?.title} | Sambath Shastri`,
+  description: () => post.value?.seo?.description || post.value?.description,
+  image: () => post.value?.cardImageUrl
 })
 </script>
 
