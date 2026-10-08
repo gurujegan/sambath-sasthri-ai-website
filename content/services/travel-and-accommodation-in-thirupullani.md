@@ -3,7 +3,7 @@ title: Travel & Accommodation
 description: 'The temple is located in Ramanathapuram district of Tamilnadu. A diversion from Ramanathapuram in the Madurai-Rameshwaram route to a distance of 10-12 kms leads to Tirupullani.'
 order: B
 seo:
-  title: 'How to Reach Thirupullani – Travel & Stay for Thila Homam | Sambath Shastri'
+  title: 'How to Reach Thirupullani – Travel & Stay for Thila Homam | Sambath Sasthri'
   description: 'How to reach Thirupullani by train or road from Madurai, Trichy and Chennai, plus food and accommodation near the temple for Thila Homam devotees.'
 cardImageUrl: /images/tgudi-mutt.webp
 ---
@@ -17,7 +17,7 @@ Thiruppullani is a beautiful coastal Divya Desam that is intimately connected wi
 
 ## How to reach Thirupullani?
 
-Thiruppullani is located approximately 10 km from the town of Ramanathapuram in southern Tamil Nadu. 
+Thiruppullani is located approximately 10 km from the town of Ramanathapuram in southern Tamil Nadu.
 Ramanathapuram is about 4 hours from Tiruchirapalli either by bus or train and another way to cover this place is by having the city of Madurai as a travel base. Thiruppullani is about 2.5 hours by land transport from Madurai. There are also a few other temples if you want to visit in and around Madurai.
 
 The Sethu seashore, where Sri RAMA camped while building the bridge across the sea is about 5 km from the Thirupullani temple.

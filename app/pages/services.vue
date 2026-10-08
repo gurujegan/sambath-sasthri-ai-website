@@ -48,7 +48,7 @@
 
 <script setup>
 usePageSeo({
-  title: 'Services | Thila Homam, Travel & Accommodation – Sambath Shastri',
+  title: 'Services | Thila Homam, Travel & Accommodation – Sambath Sasthri',
   description: 'Thila Homam for Pitru Dosha nivarthi at Thirupullani and Sethukarai, travel and stay for your family, and Vedic rituals like Ganapathi Homam and Gruhapravesam.'
 })
 
