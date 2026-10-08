@@ -45,7 +45,7 @@ export default defineNuxtConfig({
   },
 
   site: {
-    url: 'https://www.sambathshastri.in',
+    url: 'https://www.sambathsasthri.in',
     trailingSlash: true
   },
 

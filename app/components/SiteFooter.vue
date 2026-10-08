@@ -23,7 +23,7 @@
 
     <div class="border-t border-kumkum-800">
       <div class="container-page flex flex-col gap-3 py-5 text-sm text-sandal-300/70 sm:flex-row sm:items-center sm:justify-between">
-        <p>&copy; {{ year }} sambathshastri.in · All rights reserved.</p>
+        <p>&copy; {{ year }} sambathsasthri.in · All rights reserved.</p>
         <nav aria-label="Footer">
           <ul class="flex flex-wrap gap-x-5 gap-y-1">
             <li v-for="item in site.nav" :key="item.to">
