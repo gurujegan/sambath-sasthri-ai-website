@@ -63,10 +63,9 @@ export default defineNuxtConfig({
     '/exclude/**': { robots: false }
   },
 
-  // NOTE: Universal Analytics (UA-*) stopped collecting data in 2023.
-  // Replace this with your GA4 measurement ID (G-XXXXXXXXXX).
+  // Google Analytics 4 web stream "Sambath Shastri"
   gtag: {
-    id: 'UA-244280787-2'
+    id: 'G-C3DZ4L2H5K'
   },
 
   content: {
