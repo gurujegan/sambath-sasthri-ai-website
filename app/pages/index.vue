@@ -145,7 +145,7 @@ const highlights = [
 
 const tamilTitles = {
   'thila-homam': 'தில ஹோமம்',
-  'travel-and-accommodation': 'பயணித்தல் மற்றும் இடவசதி'
+  'travel-and-accommodation-in-thirupullani':'பயணித்தல் மற்றும் இடவசதி'
 }
 
 const { data: posts } = await useAsyncData('services', () =>

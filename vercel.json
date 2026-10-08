@@ -2,5 +2,9 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "nuxtjs",
   "installCommand": "npm ci",
-  "buildCommand": "npm run generate"
+  "buildCommand": "npm run generate",
+  "redirects": [
+    { "source": "/travel-and-accommodation", "destination": "/travel-and-accommodation-in-thirupullani/", "permanent": true },
+    { "source": "/travel-and-accommodation/", "destination": "/travel-and-accommodation-in-thirupullani/", "permanent": true }
+  ]
 }
