@@ -45,7 +45,7 @@ export default defineNuxtConfig({
   },
 
   site: {
-    url: 'https://www.sambathshastri.in',
+    url: 'https://www.sambathsasthri.in',
     trailingSlash: true
   },
 
@@ -63,14 +63,14 @@ export default defineNuxtConfig({
     '/exclude/**': { robots: false }
   },
 
-  // Google Analytics 4 web stream "Sambath Shastri"
+  // Google Analytics 4 web stream "Sambath Sasthri"
   gtag: {
     id: 'G-C3DZ4L2H5K'
   },
 
   content: {
     renderer: {
-      // Headings like "## [H.Sambath Shastri](/about/)" would otherwise nest <a> inside <a>
+      // Headings like "## [H.Sambath Sasthri](/about/)" would otherwise nest <a> inside <a>
       anchorLinks: false
     },
     experimental: {

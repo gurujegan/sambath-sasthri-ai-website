@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink to="/" class="group flex items-center gap-3" aria-label="Sambath Shastri – home">
+  <NuxtLink to="/" class="group flex items-center gap-3" aria-label="Sambath Sasthri – home">
     <!-- Homa-kundam flame, echoing the original logo -->
     <svg viewBox="0 0 48 48" class="h-11 w-11 shrink-0" aria-hidden="true">
       <defs>
@@ -16,7 +16,7 @@
       <path fill="#DDB24A" d="M8 35h32v3H8zM12 40h24v3H12z" />
     </svg>
     <span class="leading-tight">
-      <span class="block font-display text-xl text-sandal-50 sm:text-2xl">Sambath Shastri</span>
+      <span class="block font-display text-xl text-sandal-50 sm:text-2xl">Sambath Sastri</span>
       <span lang="ta" class="block text-xs text-gold-300 sm:text-sm">ஸ்ரீ சம்பத் சாஸ்திரி</span>
     </span>
   </NuxtLink>

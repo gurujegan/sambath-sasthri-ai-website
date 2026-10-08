@@ -24,7 +24,7 @@
 
 <script setup>
 usePageSeo({
-  title: 'Gallery | Thila Homam at Thirupullani & Sethukarai – Sambath Shastri',
+  title: 'Gallery | Thila Homam at Thirupullani & Sethukarai – Sambath Sasthri',
   description: 'Photos of Thila Homam, Shanthi Pariharam and Sarpa Shanthi rituals at Thirupullani and Sethukarai, and the temple town where devotees stay.'
 })
 

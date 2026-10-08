@@ -8,7 +8,7 @@
     <div class="container-page relative py-14 text-center sm:py-16">
       <h2 class="text-3xl text-sandal-50 sm:text-4xl">{{ title }}</h2>
       <p class="mx-auto mt-4 max-w-2xl text-lg text-sandal-300">
-        Speak directly with Sambath Shastri to fix an auspicious date. Food and accommodation are arranged
+        Speak directly with Sambath Sasthri to fix an auspicious date. Food and accommodation are arranged
         for your family. We are here to help at any time, 24×7.
       </p>
       <div class="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">

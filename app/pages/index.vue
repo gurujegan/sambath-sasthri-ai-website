@@ -16,7 +16,7 @@
           <OrnamentDivider class="mt-6 lg:!justify-start" />
           <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-ink-muted lg:mx-0">
             Two decades of dedicated service to devotees, fulfilling their needs with the right rituals.
-            Performed by H. Sambath Shastri at the sacred Sethu shore, with food and accommodation
+            Performed by H. Sambath Sasthri at the sacred Sethu shore, with food and accommodation
             arranged for your family.
           </p>
           <div class="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center lg:justify-start">
@@ -77,16 +77,16 @@
       <div class="container-page grid items-center gap-10 py-16 sm:py-20 lg:grid-cols-2">
         <img
           src="/images/home-banner.webp"
-          alt="Sambath Shastri guiding a family through a Pitru Dosha ritual"
+          alt="Sambath Sasthri guiding a family through a Pitru Dosha ritual"
           class="w-full rounded-2xl object-cover shadow-xl ring-4 ring-gold-300/70"
           loading="lazy"
         >
         <div>
           <p class="eyebrow">About</p>
-          <h2 class="mt-3 text-3xl sm:text-4xl">H. Sambath Shastri</h2>
+          <h2 class="mt-3 text-3xl sm:text-4xl">H. Sambath Sasthri</h2>
           <p class="mt-1 text-lg text-saffron-700">Adhyana Pattar, Vazhividu Murugan Temple</p>
           <p class="mt-5 text-lg leading-8 text-ink-muted">
-            A disciple of T.P.L.S. Lakshmana Shastri of Thirupullani, he has performed Thila Homam for
+            A disciple of T.P.L.S. Lakshmana Sastri of Thirupullani, he has performed Thila Homam for
             over two decades across Ramanathapuram, Thirupullani, Sethukarai and Rameswaram. Thousands of
             devotees have benefited from rituals done the right way.
           </p>
@@ -105,7 +105,7 @@
 <script setup>
 usePageSeo({
   title: 'Thila Homam & Pitru Dosha Puja in Thirupullani, Sethukarai & Rameswaram',
-  description: 'Thila Homam and Pitru Dosha nivarthi at Thirupullani, Sethukarai & Rameswaram by H. Sambath Shastri. Over 20 years of service, with food and accommodation arranged.'
+  description: 'Thila Homam and Pitru Dosha nivarthi at Thirupullani, Sethukarai & Rameswaram by H. Sambath Sasthri. Over 20 years of service, with food and accommodation arranged.'
 })
 
 useHead({
@@ -115,7 +115,7 @@ useHead({
       '@context': 'https://schema.org',
       '@type': 'LocalBusiness',
       '@id': `${site.url}/#business`,
-      name: 'Sambath Shastri – Thila Homam, Thirupullani',
+      name: 'Sambath Sasthri – Thila Homam, Thirupullani',
       description: 'Thila Homam and Pitru Dosha nivarthi rituals at Thirupullani, Sethukarai and Rameswaram, with food and accommodation for devotees.',
       url: `${site.url}/`,
       image: absoluteUrl(site.defaultImage),
@@ -131,7 +131,7 @@ useHead({
       },
       areaServed: ['Thirupullani', 'Sethukarai', 'Rameswaram', 'Ramanathapuram'],
       openingHours: 'Mo-Su 00:00-23:59',
-      founder: { '@type': 'Person', name: 'H. Sambath Shastri', url: `${site.url}/about/` }
+      founder: { '@type': 'Person', name: 'H. Sambath Sasthri', url: `${site.url}/about/` }
     })
   }]
 })
@@ -145,7 +145,7 @@ const highlights = [
 
 const tamilTitles = {
   'thila-homam': 'தில ஹோமம்',
-  'travel-and-accommodation': 'பயணித்தல் மற்றும் இடவசதி'
+  'travel-and-accommodation-in-thirupullani':'பயணித்தல் மற்றும் இடவசதி'
 }
 
 const { data: posts } = await useAsyncData('services', () =>

@@ -2,7 +2,7 @@
   <div>
     <PageHero
       eyebrow="About"
-      title="H. Sambath Shastri"
+      title="H. Sambath Sasthri"
       :title-ta="site.nameTa"
       lead="Adhyana Pattar at Arulmigu Sri Vazhividu Murugan Temple, Ramanathapuram."
     />
@@ -13,7 +13,7 @@
           <div class="arch-frame aspect-[3/4]">
             <img
               src="/images/sambath-shastri1.webp"
-              alt="H. Sambath Shastri"
+              alt="H. Sambath Sasthri"
               class="h-full w-full object-cover object-top"
             >
           </div>
@@ -48,7 +48,7 @@
           </ul>
 
           <div class="mt-12 grid gap-4 sm:grid-cols-2">
-            <img src="/images/Mattukottakai.webp" alt="Sambath Shastri performing a homam with a family" class="aspect-[4/3] w-full rounded-xl object-cover shadow-md" loading="lazy">
+            <img src="/images/Mattukottakai.webp" alt="Sambath Sasthri performing a homam with a family" class="aspect-[4/3] w-full rounded-xl object-cover shadow-md" loading="lazy">
             <img src="/images/thirupullani-premise.webp" alt="Thila Homam premises at Thirupullani" class="aspect-[4/3] w-full rounded-xl object-cover shadow-md" loading="lazy">
           </div>
         </section>
@@ -61,8 +61,8 @@
 
 <script setup>
 usePageSeo({
-  title: 'About H. Sambath Shastri | Thila Homam at Thirupullani',
-  description: 'H. Sambath Shastri, Adhyayana Pattar at Vazhividu Murugan Temple, has performed Thila Homam and Pitru Dosha pariharam at Thirupullani & Sethukarai for over 20 years.',
+  title: 'About H. Sambath Sasthri | Thila Homam at Thirupullani',
+  description: 'H. Sambath Sasthri, Adhyayana Pattar at Vazhividu Murugan Temple, has performed Thila Homam and Pitru Dosha pariharam at Thirupullani & Sethukarai for over 20 years.',
   image: '/images/sambath-shastri1.webp'
 })
 
@@ -72,7 +72,7 @@ useHead({
     innerHTML: JSON.stringify({
       '@context': 'https://schema.org',
       '@type': 'Person',
-      name: 'H. Sambath Shastri',
+      name: 'H. Sambath Sasthri',
       jobTitle: 'Adhyana Pattar',
       worksFor: { '@type': 'HinduTemple', name: 'Arulmigu Sri Vazhividu Murugan Temple', address: 'No. 46, South Car Street, Ramanathapuram 623501' },
       telephone: site.phoneHref.replace('tel:', ''),

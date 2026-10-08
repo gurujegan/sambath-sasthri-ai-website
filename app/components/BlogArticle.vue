@@ -43,7 +43,7 @@ if (!post.value) {
 }
 
 usePageSeo({
-  title: () => post.value?.seo?.title || `${post.value?.title} | Sambath Shastri`,
+  title: () => post.value?.seo?.title || `${post.value?.title} | Sambath Sasthri`,
   description: () => post.value?.seo?.description || post.value?.description,
   image: () => post.value?.cardImageUrl
 })

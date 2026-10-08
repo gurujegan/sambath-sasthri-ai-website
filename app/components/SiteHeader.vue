@@ -19,7 +19,7 @@
         <a
           :href="site.phoneHref"
           class="grid h-11 w-11 place-items-center rounded-full bg-saffron-600 text-white sm:hidden"
-          aria-label="Call Sambath Shastri"
+          aria-label="Call Sambath Sasthri"
         >
           <AppIcon name="phone" class="h-5 w-5" />
         </a>

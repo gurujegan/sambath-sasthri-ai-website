@@ -3,8 +3,8 @@ title: Thila Homam
 description: 'Vedic ritual performed to alleviate the adverse effects of Pitru dosha or the curse of our dead ancestors who have not been appeased (குறிப்பாக பித்ரு தோஷ நிவர்த்திக்காக செய்யப்படுவது)'
 order: A
 seo:
-  title: 'Thila Homam for Pitru Dosha at Thirupullani & Sethukarai | Sambath Shastri'
-  description: 'What Thila Homam is, why it is done for Pitru Dosha nivarthi, and how it is performed at Thirupullani and Sethukarai by H. Sambath Shastri.'
+  title: 'Thila Homam for Pitru Dosha at Thirupullani & Sethukarai | Sambath Sasthri'
+  description: 'What Thila Homam is, why it is done for Pitru Dosha nivarthi, and how it is performed at Thirupullani and Sethukarai by H. Sambath Sasthri.'
 cardImageUrl: /images/thila-homam.webp
 ---
 
@@ -65,9 +65,9 @@ The effect of Pithru Dosham in some cases only temporal and can be ridden off by
 ## Place where Thila Homam is conducted
 
 <div class="not-prose card grid items-center gap-6 p-6 sm:grid-cols-[1fr_1.1fr]">
-  <img src="/images/thirupullani-premise.webp" alt="Sambath Shastri's Thila Homam premises at Thirupullani" class="aspect-[4/3] w-full rounded-xl object-cover" />
+  <img src="/images/thirupullani-premise.webp" alt="Sambath Sasthri's Thila Homam premises at Thirupullani" class="aspect-[4/3] w-full rounded-xl object-cover" />
   <div>
-    <p class="font-display text-2xl text-kumkum-800"><a href="/about/" class="hover:underline">H. Sambath Shastri</a></p>
+    <p class="font-display text-2xl text-kumkum-800"><a href="/about/" class="hover:underline">H. Sambath Sasthri</a></p>
     <address class="mt-3 not-italic leading-7 text-ink-muted">
       South Car Street, next to Ahobila Mutt,<br>
       Thirupullani – 623532,<br>

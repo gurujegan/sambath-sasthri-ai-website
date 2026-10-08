@@ -37,7 +37,7 @@
 
 <script setup>
 usePageSeo({
-  title: 'Contact Sambath Shastri | Book Thila Homam at Thirupullani',
+  title: 'Contact Sambath Sasthri | Book Thila Homam at Thirupullani',
   description: `Call ${site.phone} to book Thila Homam at Thirupullani or Sethukarai. Addresses in Thirupullani and Ramanathapuram, with guidance in ${site.languages}.`
 })
 </script>
