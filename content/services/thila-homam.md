@@ -27,6 +27,8 @@ Thilahomam is a homam conducted with tilam (sesame seeds) means "Ellu" in Tamil.
 
 The effect of Pithru Dosham in some cases only temporal and can be ridden off by offerings and pariharms. Generally, if the Karma is not performed then it lasts for three generations. If a Thila Homam is performed at Sethu, then even the life time curse vanishes !!!
 
+Many families combine Thila Homam with a visit to Rameswaram, Dhanushkodi and Devipattinam – see [places to visit near Thirupullani & Rameswaram](/tourist-places-near-ramanathapuram-thirupullani-rameswaram/).
+
 </section>
 
 <div class="not-prose my-10 grid gap-6 sm:grid-cols-2">
