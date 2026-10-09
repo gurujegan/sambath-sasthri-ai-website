@@ -2,10 +2,21 @@
 title: Places to Visit near Ramanathapuram, Thirupullani & Rameswaram
 description: 'Temples, theerthams, beaches and heritage sites you can visit around Ramnad, Thirupullani, Sethukarai and Rameswaram while you are here for Thila Homam.'
 order: C
+datePublished: '2026-10-09'
 seo:
-  title: 'Tourist Places near Ramanathapuram, Thirupullani & Rameswaram | Sambath Sasthri'
-  description: 'A local guide to temples and tourist places near Ramnad, Thirupullani, Sethukarai, Devipattinam, Uthirakosamangai, Rameswaram and Dhanushkodi, with distances and a 2-day plan.'
+  title: 'Places to Visit near Rameswaram, Ramnad & Thirupullani'
+  description: 'Tourist places near Rameswaram, Ramanathapuram & Thirupullani: Dhanushkodi, Devipattinam, Uthirakosamangai and Sethukarai, with distances and a 2-day plan.'
 cardImageUrl: /images/thirupullani-anjaneyar-temple.webp
+cardImageAlt: 'Anjaneyar temple at Thirupullani, near Ramanathapuram'
+faq:
+  - question: How far is Rameswaram from Thirupullani?
+    answer: 'About 60 km by road, roughly 1 – 1½ hours by car via Ramanathapuram and the Pamban bridge.'
+  - question: Can we visit Rameswaram on the same day as Thila Homam?
+    answer: 'Yes. Thila Homam at Thirupullani is usually finished by late morning, so you can reach Rameswaram for the afternoon and evening darshan. Many families prefer to keep a separate day for Rameswaram so they can bathe in the 22 theerthams without hurry.'
+  - question: Which is the nearest railway station to Thirupullani?
+    answer: 'Ramanathapuram (RMD), about 10 km away, on the Madurai – Rameswaram line, with direct trains from Chennai and Madurai.'
+  - question: Is Dhanushkodi open to visitors?
+    answer: 'Yes, the road to Arichal Munai is open during the day. Visitors are usually asked to leave before sunset, and swimming in the sea there is not safe.'
 ---
 
 <section id="introduction">
@@ -155,28 +166,5 @@ We can help arrange a car for the day and accommodation at Thirupullani – just
 - **Dress code:** traditional dress is expected inside the temples; carry a change of clothes for the theertham baths.
 - **Auspicious days:** Amavasai (new moon), Mahalaya Paksham, Thai Amavasai and Aadi Amavasai are crowded days for tarpanam and Thila Homam – book early.
 - **Getting around:** a hired car or taxi is the easiest way to cover these places. Town buses run from Ramnad to Thirupullani (1A, 1B, 5, 5A, 5B, 10 and 17) and frequent buses run to Rameswaram.
-
-</section>
-
-
-<section id="faq">
-
-## Frequently asked questions
-
-### How far is Rameswaram from Thirupullani?
-
-About 60 km by road, roughly 1 – 1½ hours by car via Ramanathapuram and the Pamban bridge.
-
-### Can we visit Rameswaram on the same day as Thila Homam?
-
-Yes. Thila Homam at Thirupullani is usually finished by late morning, so you can reach Rameswaram for the afternoon and evening darshan. Many families prefer to keep a separate day for Rameswaram so they can bathe in the 22 theerthams without hurry.
-
-### Which is the nearest railway station to Thirupullani?
-
-Ramanathapuram (RMD), about 10 km away, on the Madurai – Rameswaram line, with direct trains from Chennai and Madurai.
-
-### Is Dhanushkodi open to visitors?
-
-Yes, the road to Arichal Munai is open during the day. Visitors are usually asked to leave before sunset, and swimming in the sea there is not safe.
 
 </section>
