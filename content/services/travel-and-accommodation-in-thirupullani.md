@@ -22,6 +22,8 @@ Ramanathapuram is about 4 hours from Tiruchirapalli either by bus or train and a
 
 The Sethu seashore, where Sri RAMA camped while building the bridge across the sea is about 5 km from the Thirupullani temple.
 
+Planning to see more while you are here? See our guide to [places to visit near Ramanathapuram, Thirupullani & Rameswaram](/tourist-places-near-ramanathapuram-thirupullani-rameswaram/).
+
 ### Train Details
 
 Some of the trains that operate between Chennai and Ramanathapuram include: MUV RMM EXP, RAMESWARAM EXP. The first train on this route is BBS RMM EXPRESS and leaves Chennai at 08:45 am, and the last train from Chennai to Ramanathapuram is RAMESWARAM EXP and leaves Chennai at 19:15 pm. The average time taken to connect these cities is **10:59** hours. There are 4 weekly trains and 2 daily trains that run from Chennai to Ramanathapuram, covering the shortest distance of about 441 km by RAMESWARAM EXP(22661).
